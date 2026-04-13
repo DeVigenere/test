@@ -6,6 +6,8 @@
 #include <cstdint>
 
 
+setlocale(LC_ALL, "Russian");
+
 struct ListNode { // Задание не менять
 	ListNode* prev = nullptr;
 	ListNode* next = nullptr;
